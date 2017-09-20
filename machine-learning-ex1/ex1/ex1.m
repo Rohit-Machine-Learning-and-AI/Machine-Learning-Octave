@@ -26,6 +26,8 @@
 %% Initialization
 clear ; close all; clc
 
+setenv("GNUTERM","qt")
+
 %% ==================== Part 1: Basic Function ====================
 % Complete warmUpExercise.m
 fprintf('Running warmUpExercise ... \n');
